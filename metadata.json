@@ -1,0 +1,11 @@
+{
+  "name": "Remix Eros Dreamz - Video Dating for Men",
+  "description": "Short-form video stream meets nearby radar for men. Discover 10-second vibes, nearby sparks, age-verified accounts, and social chats.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
