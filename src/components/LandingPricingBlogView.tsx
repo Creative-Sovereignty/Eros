@@ -32,6 +32,7 @@ import { PrivacyPolicyView } from './legal/PrivacyPolicyView';
 import { TermsOfServiceView } from './legal/TermsOfServiceView';
 import { SafetyCenterView } from './legal/SafetyCenterView';
 import { SupportCenterView } from './legal/SupportCenterView';
+import { PWAInstallButton } from './PWAInstallButton';
 
 export type LandingHubTab = 'landing' | 'pricing' | 'blog' | 'downloads' | 'privacy' | 'terms' | 'safety' | 'support';
 
@@ -722,16 +723,21 @@ export const LandingPricingBlogView: React.FC<LandingPricingBlogViewProps> = ({
         {/* 4. APP STORE DOWNLOAD LINKS MODE */}
         {activeTab === 'downloads' && (
           <div className="flex-1 py-16 px-6 max-w-5xl mx-auto w-full">
-            <div className="text-center mb-16">
-              <span className="text-pink-400 text-xs font-mono font-bold uppercase tracking-widest px-3 py-1 bg-pink-500/10 rounded-full border border-pink-500/20">
-                Get Pulse on Your Device
+            <div className="text-center mb-12">
+              <span className="text-amber-400 text-xs font-mono font-bold uppercase tracking-widest px-3 py-1 bg-amber-500/10 rounded-full border border-amber-500/30">
+                Direct Progressive Web App (PWA)
               </span>
               <h2 className="text-3xl sm:text-5xl font-black text-white mt-4 mb-4">
-                Download for iOS & Android
+                Install on iPhone, Android & Desktop
               </h2>
               <p className="text-zinc-400 max-w-xl mx-auto text-sm sm:text-base">
-                Experience the fastest 10-second video dating and nearby radar app directly on your mobile device.
+                ErosDreamz is a direct-install Progressive Web App (PWA). Add it directly to your home screen for full-screen camera streaming, proximity radar, and 35-hour private vaults with zero App Store friction.
               </p>
+            </div>
+
+            {/* Featured PWA Direct Install Card */}
+            <div className="mb-12">
+              <PWAInstallButton variant="card" />
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">

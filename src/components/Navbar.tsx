@@ -17,6 +17,7 @@ import {
 } from 'lucide-react';
 import { User, UserWallet } from '../types';
 import { ErosLogo } from './ErosLogo';
+import { PWAInstallButton } from './PWAInstallButton';
 
 export type AppNavTab = 'stream' | 'radar' | 'messages' | 'profile';
 
@@ -144,6 +145,9 @@ export const Navbar: React.FC<NavbarProps> = ({
               <span>Landing Page</span>
             </button>
           )}
+
+          {/* In-App PWA Install Action */}
+          <PWAInstallButton />
 
           {/* Eros Coins Pill */}
           <button

@@ -1,0 +1,26 @@
+{
+  "id": "/",
+  "name": "ErosDreamz - Male Video Dating & Nearby Radar",
+  "short_name": "ErosDreamz",
+  "description": "Short-form 10-second video stream meets nearby proximity radar for men. 18+ verified vibes and private vaults.",
+  "theme_color": "#060a14",
+  "background_color": "#060a14",
+  "display": "standalone",
+  "orientation": "portrait",
+  "start_url": "/",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/assets/erosdreamz_logo_original.jpg",
+      "sizes": "192x192 512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/erosdreamz_logo_original.jpg",
+      "sizes": "192x192 512x512",
+      "type": "image/jpeg",
+      "purpose": "maskable"
+    }
+  ]
+}
